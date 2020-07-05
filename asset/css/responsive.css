@@ -36,7 +36,7 @@
         padding-bottom: 87px;
     }
     #expertise #expertise_image {
-        height: 76%;
+        height: 78%;
     }
     #tab_area .tab_left_button .nav-tabs .nav-item {
         padding: 23px 16px;
@@ -76,6 +76,7 @@
     }
     #blog .blog_main_slider .blog_item .blog_item_content {
         padding: 42px 33px;
+        padding-bottom: 45px;
     }
     #blog .blog_main_slider .blog_item .blog_item_content h4 {
         font-size: 16px;
@@ -119,7 +120,7 @@
         line-height: 64px;
     }
     #quote_1 {
-        padding: 100px 0px;
+        padding: 150px 0px;
     }
     
     #tab_area .tab_left_button .nav-tabs .nav-item span {
@@ -136,12 +137,21 @@
         margin-top: 28px;
     }
     #testmonial {
-        padding: 160px 0px;
+        padding: 220px 0px 121px 0px;
     }
-
-
-
-
+    #testmonial .testmonial_top_left span {
+        height: 140px;
+        width: 140px;
+        line-height: 140px;
+        top: -83px;
+        left: -105px;
+    }
+    #testmonial .testmonial_top_left span img {
+        height: 32px;
+    }
+    #expertise .expertise_right .expertise_right_item p {
+        width: 90%;
+    }
 
 
 
