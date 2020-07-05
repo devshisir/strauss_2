@@ -34,7 +34,7 @@ $(document).ready(function() {
         loop:true,
         margin:20,
         nav:true,
-        navText: ["<i class='fal fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
+        navText: ["<i class='fal fa-long-arrow-left'></i>","<i class='fal active fa-long-arrow-right'></i>"],
         smartSpeed: 900,
         responsive:{
             0:{
@@ -61,7 +61,15 @@ $(document).ready(function() {
 
 
 
+    $('.testmonial_slider_active .owl-next').on('click',function(){
+        $('.testmonial_slider_active .owl-next i').addClass('active');
+        $('.testmonial_slider_active .owl-prev i').removeClass('active');
+    })
 
+    $('.testmonial_slider_active .owl-prev').on('click',function(){
+        $('.testmonial_slider_active .owl-prev i').addClass('active');
+        $('.testmonial_slider_active .owl-next i').removeClass('active');
+    })
 
 
 

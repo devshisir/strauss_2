@@ -45,8 +45,22 @@ a{
                     position: relative;
                     padding-bottom: 8px;
                     display: block;
+                    &:after{
+                        position: absolute;
+                        height: 3px;
+                        width: 0%;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        content: "";
+                        background: $mainColor;
+                        transition: 0.4s;
+                    }
                     &:hover{
-                        color: $mainColor;
+                        &:after{
+                            width: 99%;
+                        }
                     }
                 }
             }
@@ -70,7 +84,6 @@ a{
                     padding: 10px 24px;
                     font-weight: 700;
                     color: #fff;
-                    border-radius: 3px;
                     &:hover{
                         color: #fff;
                         transform: translateY(-4px);
@@ -103,6 +116,7 @@ header#header_top.fix {
     display: flex;
     align-items: center;
     .banar_area_content{
+        margin-top: -90px;
         h3{
             color: $titleColor;
             font-family: 'Nunito Sans', sans-serif;
@@ -115,11 +129,14 @@ header#header_top.fix {
             margin-top: 50px;
             background: $mainColor;
             color: #fff;
-            padding: 14px 40px;
+            padding: 0px;
             font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            border-radius: 2px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 500;
+            width: 230px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
             &:hover{
                 transform: translateY(-4px);
                 box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -144,7 +161,7 @@ header#header_top.fix {
         cursor: pointer;
         &:after{
             position: absolute;
-            height: 6px;
+            height: 10px;
             width: 0%;
             bottom: 0;
             left: 0;
@@ -167,7 +184,8 @@ header#header_top.fix {
         p{
             font-size: 14px;
             color: $bodyColor;
-            line-height: 25px;
+            line-height: 23px;
+            font-weight: 300;
         }
     }
 }
@@ -336,7 +354,7 @@ header#header_top.fix {
                         border-radius: 2px;
                         font-size: 14px;
                         color: $titleColor;
-                        font-weight: 700;
+                        font-weight: 600;
                         &:hover{
                             transform: translateY(-4px);
                             box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -373,9 +391,11 @@ header#header_top.fix {
             color: #333333;
             font-family: $nu;
             font-size: 35px;
+            font-weight: 300;
         }
     }
     .custom_solution_item{
+        cursor: pointer;
         span{
             height: 80px;
             width: 80px;
@@ -387,27 +407,46 @@ header#header_top.fix {
             border-radius: 50%;
             margin-right: 15px;
             margin-bottom: 20px;
+            transition: 0.4s;
+            svg{
+                path{
+                    transition: 0.4s;
+                }
+            }
         }
-        h4{
+        &:hover{
+            span{
+                background-color: $mainColor;
+                border-color: $mainColor;
+                svg path{
+                    fill: #fff;
+                }
+            }
+        }
+        a{
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 500;
             color: $titleColor;
-
+            font-family: 'Montserrat', sans-serif;
+            &:hover{
+                text-decoration: underline;
+                color: $mainColor;
+            }
         }
         p{
             font-size: 13px;
             color: #666;
-            margin-top: 10px;
+            margin-top: 5px;
             line-height: 20px;
         }
-        a{
+        a.right_sp_button{
             display: inline-block;
             background: $mainColor;
             color: #fff;
             padding: 14px 40px;
             font-size: 14px;
-            border-radius: 2px;
-            font-weight: 700;
+            font-weight: 600;
+            text-decoration: none;
             &:hover{
                 transform: translateY(-4px);
                 box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -433,6 +472,7 @@ header#header_top.fix {
             font-weight: 300;
             font-style: italic;
             margin-top: 13px;
+            opacity: 0.8;
         }
     }
     .blog_main_slider{
@@ -472,7 +512,7 @@ header#header_top.fix {
             position: relative;
             &:after{
                 position: absolute;
-                height: 6px;
+                height: 10px;
                 width: 0%;
                 bottom: 0;
                 left: 0;
@@ -497,10 +537,10 @@ header#header_top.fix {
                 }
                 a.title_lik{
                     margin-top: 15px;
-                    font-size: 16px;
+                    font-size: 17px;
                     color: $titleColor;
                     font-weight: 600;
-                    line-height: 24px;
+                    line-height: 23px;
                     font-family: 'Montserrat', sans-serif;
                     &:hover{
                         padding-left: 0px;
@@ -553,6 +593,7 @@ header#header_top.fix {
             width: 70%;
             margin: 0 auto;
             margin-top: 14px;
+            opacity: 0.8;
         }
     }
     .cleint_area_main{
@@ -611,23 +652,33 @@ header#header_top.fix {
                 opacity: 1;
             }
             .owl-nav{
-                position: absolute;
-                top: -120px;
-                right: 205px;
-                transition: 0.4s;
-                div{
-                    display: inline-block;
-                    margin-left: 25px;
+                .owl-prev{
+                    position: absolute;
+                    top: -120px;
+                    right: 211px;
                     transition: 0.4s;
-                    &:hover{
-                        transform: scale(3);
-                        margin-left: 30px;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 3px;
+                    i{
+                        transition: 0.4s;
                     }
                 }
-                .owl-prev{
-                    &:hover{
-                        margin-right: 20px;
+                .owl-next{
+                    position: absolute;
+                    top: -120px;
+                    right: 164px;
+                    transition: 0.4s;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 3px;
+                    transition: 0.4s;
+                    i{
+                        transition: 0.4s;
                     }
+                }
+                i.active{
+                    transform: scale(3);
                 }
             }
             .testmonial_slider_item{
@@ -692,9 +743,8 @@ header#header_top.fix {
             background: $mainColor;
             color: #fff;
             padding: 14px 60px;
-            font-weight: 700;
+            font-weight: 500;
             font-size: 14px;
-            border-radius: 2px;
             &:hover{
                 transform: translateY(-4px);
                 box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -751,7 +801,6 @@ header#header_top.fix {
                     &:hover{
                         color: $mainColor;
                         text-decoration: underline;
-                        font-weight: 600;
                     }
                 }
             }
