@@ -43,6 +43,7 @@
         padding-top: 9px;
         padding-bottom: 23px;
         margin-bottom: -5px;
+        width: 390px;
     }
     #tab_area .tab_main_content .tab_main_content_content .tab_main_content_top .tab_main_content_top_info h3 {
         font-size: 32.5px;
@@ -71,10 +72,10 @@
         font-size: 45px;
     }
     #blog .blog_top_title p {
-        font-size: 26px;
+        font-size: 24px;
     }
     #blog .blog_main_slider .blog_item .blog_item_content {
-        padding: 50px 55px;
+        padding: 42px 33px;
     }
     #blog .blog_main_slider .blog_item .blog_item_content h4 {
         font-size: 16px;
@@ -120,14 +121,23 @@
     #quote_1 {
         padding: 100px 0px;
     }
-    #blog .blog_main_slider .blog_item {
-        min-height: 616px;
+    
+    #tab_area .tab_left_button .nav-tabs .nav-item span {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        font-size: 20px;
     }
-
-
-
-
-
+    #tab_area {
+        padding: 97px 0px;
+    }
+    #blog .blog_main_slider .blog_item .blog_item_content a {
+        margin-top: 28px;
+    }
+    #testmonial {
+        padding: 160px 0px;
+    }
 
 
 
