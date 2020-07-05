@@ -60,7 +60,7 @@
         margin-top: 14px;
         line-height: 25px;
     }
-    #custom_solution .custom_solution_item a {
+    #custom_solution .custom_solution_item a.right_sp_button {
         padding: 0px;
         font-size: 18px;
         width: 248px;
