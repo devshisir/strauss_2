@@ -81,7 +81,7 @@ a{
             .btn_sp_header{
                 a{
                     background: $mainColor;
-                    padding: 10px 24px;
+                    padding: 10px 19px;
                     font-weight: 700;
                     color: #fff;
                     &:hover{
@@ -749,6 +749,7 @@ header#header_top.fix {
             font-size: 28px;
             color: #fff;
             font-family: 'Roboto', sans-serif;
+            font-weight: normal;
         }
         a{
             display: inline-block;

@@ -18,10 +18,10 @@
         padding: 0px;
         font-size: 18px;
         height: 64px;
-        width: 280px;
+        width: 242px;
         text-align: center;
-        line-height: 65px;
-        font-weight: 700;
+        line-height: 64px;
+        font-weight: 500;
     }
     #banar_bottom .banar_bottom_item {
         padding: 80px 38px;
@@ -54,10 +54,10 @@
     #custom_solution .custom_solution_item span {
         height: 90px;
         width: 90px;
-        line-height: 90px;
+        line-height: 86px;
     }
     #custom_solution .custom_solution_item p {
-        font-size: 13px;
+        font-size: 14px;
         margin-top: 14px;
         line-height: 25px;
     }
