@@ -915,6 +915,29 @@ header#header_top.fix {
     }
 }
 
+//sub_banar
+#sub_banar_2{
+    padding: 190px 0px;
+    background: url(../img/services/banar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .sub_banar_content{
+        h3{
+            font-family: $nu;
+            font-size: 55px;
+            color: #fff;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 3px;
+        }
+    }
+}
+
 //about_story
 #about_story{
     padding: 120px 0px 0px 0px;
@@ -1070,7 +1093,75 @@ header#header_top.fix {
     }
 }
 
-
+//service_page_service
+#service_page_service{
+    padding: 100px 0px;
+    background: #fff;
+    .service_page_service_top{
+        h4{
+            font-family: $nu;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 25px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+    }
+    .service_page_service_container{
+        margin-top: 70px;
+        .service_page_service_item{
+            cursor: pointer;
+            margin-bottom: 80px;
+            &:hover{
+                span{
+                    background: $mainColor;
+                    svg{
+                        path{
+                            fill: #fff;
+                        }
+                        rect{
+                            fill: #fff;
+                        }
+                    }
+                }
+            }
+            span{
+                height: 90px;
+                width: 90px;
+                display: block;
+                background: #F7F7F7;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 90px;
+                margin-bottom: 43px;
+                transition: 0.4s;
+                svg{
+                    path{
+                        transition: 0.4s;
+                    }
+                    rect{
+                        transition: 0.4s;
+                    }
+                }
+            }
+            h3{
+                font-size: 20px;
+                font-weight: 500;
+                color: $titleColor;
+            }
+            p{
+                font-size: 14px;
+                line-height: 25px;
+                color: #666666;
+                margin-top: 15px;
+            }
+        }
+    }
+}
 
 
 
