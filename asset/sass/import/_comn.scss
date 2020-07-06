@@ -36,46 +36,6 @@
         margin-top: 20px;
     }
 }
-#sub_banar{
-    padding: 200px 0px;
-    width: 100%;
-    background: url(../img/banar/sub.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    z-index: 1;
-    &:after{
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        content: "";
-        top: 0;
-        left: 0;
-        background: rgba(0,0,0,0.8);
-        z-index: -1;
-    }
-    .sub_banar_content{
-        h3{
-            color: #fff;
-            font-weight: 600;
-            font-size: 50px;
-        }
-        p{
-            color: #fff;
-            margin-top: 10px;
-            a{
-                color: #fff;
-                font-weight: 600;
-                margin-right: 10px;
-                color: $mainColor;
-            }
-            .fal{
-                margin-right: 8px;
-            }
-        }
-    }
-}
 .c_btn_1{
     background-image: linear-gradient(to right, #3e41bf, #3e41cb, #3f41d7, #4040e3, #423fef, #4f3df5, #5c3afa, #6836ff, #7d30ff, #8f27ff, #a11aff, #b100ff);
     color: #fff;

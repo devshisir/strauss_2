@@ -8,6 +8,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
 $nu : 'Nunito Sans', sans-serif;
+$ro : 'Roboto', sans-serif;
 p{
     font-family: 'Roboto', sans-serif;
 }
@@ -890,6 +891,201 @@ header#header_top.fix {
         }
     }
 }
+
+//sub_banar
+#sub_banar{
+    padding: 190px 0px;
+    background: url(../img/about/banar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .sub_banar_content{
+        h3{
+            font-family: $nu;
+            font-size: 55px;
+            color: $titleColor;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 3px;
+        }
+    }
+}
+
+//about_story
+#about_story{
+    padding: 120px 0px 0px 0px;
+    background: #fff;
+    .about_story_content{
+        border-bottom: 1px solid #7070704b;
+        padding-bottom: 80px;
+        h3{
+            font-weight: 300;
+            font-family: $nu;
+            font-size: 45px;
+            color: $titleColor;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 16px;
+            color: #666666;
+            line-height: 30px;
+        }
+    }
+}
+
+//about_value
+#about_value{
+    padding: 100px 0px;
+    background: #fff;
+    .about_value_title{
+        h3{
+            font-weight: 300;
+            font-family: $nu;
+            font-size: 45px;
+            color: $titleColor;
+            margin-bottom: 25px;
+        }
+    }
+    .about_value_main{
+        margin-top: 30px;
+        .about_value_main_container{
+            display: flex;
+            justify-content: space-between;
+            .value_about_item{
+                padding: 20px;
+                cursor: pointer;
+                &:hover{
+                    span{
+                        background: $mainColor;
+                        svg path{
+                            fill: #fff;
+                        }
+                    }
+                }
+                h4{
+                    font-family: $ro;
+                    font-size: 60px;
+                    color: #eeeeee;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                }
+                span{
+                    height: 90px;
+                    width: 90px;
+                    background: #F7F7F7;
+                    border-radius: 50%;
+                    display: block;
+                    text-align: center;
+                    line-height: 90px;
+                    margin: 0 auto;
+                    transition: 0.4s;
+                    svg{
+                        path{
+                            transition: 0.4s;
+                        }
+                    }
+                }
+                h3{
+                    font-size: 20px;
+                    color: $titleColor;
+                    font-weight: 500;
+                    margin-top: 30px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #666666;
+                    line-height: 23px;
+                    width: 89%;
+                    margin: 0 auto;
+                    margin-top: 0px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+//about_connect
+#about_connect{
+    padding: 150px 0px;
+    background-image: url(../img/about/banar_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .about_connect_top{
+        h3{
+            font-family: $nu;
+            font-size: 45px;
+            color: #fff;
+            font-weight: 300;
+        }
+        p{
+            font-size: 23px;
+            color: #fff;
+            font-weight: 300;
+            font-style: italic;
+            margin-top: 10px;
+        }
+    }
+    .about_connect_main{
+        margin-top: 70px;
+        .about_connect_item{
+            background: #fff;
+            padding: 70px 0px;
+            width: 90%;
+            margin: 0 auto;
+            img{
+                margin-bottom: 30px;
+            }
+            h3{
+                font-size: 20px;
+                color: $titleColor;
+                font-weight: 600;
+            }
+            p{
+                font-size: 15px;
+                margin-top: 10px;
+                color: #221f1fb2;
+            }
+            a{
+                margin-top: 15px;
+                display: inline-block;
+                i{
+                    font-size: 32px;
+                    color: #919DAC;
+                    transition: 0.4s;
+                }
+                &:hover{
+                    i{
+                        color: #0077B5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
