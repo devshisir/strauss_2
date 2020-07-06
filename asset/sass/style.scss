@@ -1247,7 +1247,14 @@ header#header_top.fix {
 }
 
 
-
+//blog page blog
+#blog.blog_page{
+    background: #fff;
+    padding: 120px 0px;
+    .blog_main_slider{
+        margin-top: 0px;
+    }
+}
 
 
 

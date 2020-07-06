@@ -30,6 +30,10 @@ $(document).ready(function() {
     })
 
 
+
+    
+
+
     $('.testmonial_slider_active').owlCarousel({
         loop:true,
         margin:20,
