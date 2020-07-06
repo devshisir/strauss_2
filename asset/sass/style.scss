@@ -1163,7 +1163,88 @@ header#header_top.fix {
     }
 }
 
-
+//carrer_page_main
+#carrer_page_main{
+    padding: 100px 0px;
+    background: #fff;
+    .carrer_page_main_top{
+        h4{
+            font-family: $nu;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 25px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+    }
+    .carrer_page_main_tabl{
+        margin-top: 70px;
+        .carrer_page_main_table_top{
+            border-top: 1px solid #7070704d;
+            border-bottom: 1px solid #7070704d;
+            padding: 29px 30px;
+            h3{
+                font-family: $nu;
+                font-size: 45px;
+                font-weight: 300;
+            }
+        }
+        .carrer_page_main_tabl_main{
+            .carrer_page_main_tabl_main_item{
+                border-bottom: 1px solid #7070704d;
+                padding: 29px 30px;
+                padding-right: 60px;
+                .carrer_page_main_tabl_main_item_content{
+                    h4{
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: $titleColor;
+                        margin-bottom: 10px;
+                    }
+                    ul{
+                        li{
+                            display: inline-block;
+                            font-family: $ro;
+                            font-size: 14px;
+                            color: #666666;
+                            margin-right: 20px;
+                            span{
+                                color: $titleColor
+                            }
+                        }
+                    }
+                }
+                .carrer_page_main_tabl_main_item_btn{
+                    a{
+                        width: 127px;
+                        height: 39px;
+                        line-height: 39px;
+                        text-align: center;
+                        border: 1px solid $mainColor;
+                        color: $mainColor;
+                        font-family: $ro;
+                        font-size: 14px;
+                        display: inline-block;
+                        &:hover{
+                            background: $mainColor;
+                            color: #fff;
+                            transform: translateY(-4px);
+                            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+                        }
+                    }
+                    
+                }
+            }
+            .carrer_page_main_tabl_main_item.active{
+                background-color: #F9F8FE;
+            }
+        }
+    }
+}
 
 
 
