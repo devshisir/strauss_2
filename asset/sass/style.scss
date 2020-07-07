@@ -1437,7 +1437,98 @@ header#header_top.fix {
 }
 
 
-
+//blog_details
+#blog_details{
+    padding: 100px 0px;
+    background-color: #fff;
+    .blog_details_content{
+        .blog_details_title{
+            h4{
+                font-family: $ro;
+                font-size: 15px;
+                color: #999999;
+                font-weight: 400;
+            }
+            h3{
+                font-family: $nu;
+                font-size: 28px;
+                color: $titleColor;
+                font-weight: 500;
+                margin-top: 15px;
+            }
+        }
+        .blog_details_item_container{
+            margin-top: 50px;
+            .blog_details_item{
+                margin-bottom: 35px;
+                h3{
+                    font-size: 18px;
+                    color: $titleColor;
+                    font-weight: 500;
+                    margin-bottom: 13px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #666666;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 20px;
+                    a{
+                        color: $mainColor;
+                        font-weight: 500;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                ul{
+                    padding-left: 13px;
+                    li{
+                        font-size: 14px;
+                        color: #666666;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-bottom: 20px;
+                        font-family: $ro;
+                        list-style: disc;
+                    }
+                }
+            }
+            .blog_details_image_item{
+                margin-top: 35px;
+                margin-bottom: 35px;
+                img{
+                    width: 100%;
+                }
+            }
+            .blog_details_share{
+                margin-top: 70px;
+                ul{
+                    li{
+                        display: inline-block;
+                        margin-right: 15px;
+                        font-family: $ro;
+                        font-size: 13px;
+                        color: #999999;
+                        a{
+                            margin-left: 15px;
+                            i{
+                                font-size: 18px;
+                                color: #919DAC;
+                                position: relative;
+                                top: 2px;
+                                transition: 0.4s;
+                                &:hover{
+                                    color: $mainColor;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

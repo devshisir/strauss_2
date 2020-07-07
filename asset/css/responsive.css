@@ -164,6 +164,11 @@
         margin: 0 auto;
     }
 
+    /*-- blog details --*/
+    .blog_details_content {
+        width: 85%;
+        margin: 0 auto;
+    }
 
 
 
