@@ -59,6 +59,8 @@ $(document).ready(function() {
         margin:0,
         nav:false,
         smartSpeed: 900,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOutLeft',
         responsive:{
             0:{
                 items:1
