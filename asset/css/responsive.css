@@ -170,7 +170,31 @@
         margin: 0 auto;
     }
 
-
+    /*-- case study page --*/
+    .case_study_page_main_item_left {
+        width: 530px;
+    }
+    #case_study_page .case_study_page_main .case_study_page_main_item .case_study_page_main_item_left h4 span {
+        margin-right: 17px;
+    }
+    #case_study_page .case_study_page_main .case_study_page_main_item .case_study_page_main_item_right p {
+        font-size: 17px;
+    }
+    #case_study_page .case_study_page_main .case_study_page_main_item .case_study_page_main_item_left h4 {
+        font-size: 17px;
+    }
+    #case_study_service .case_study_service_item p {
+        width: 85%;
+    }
+    #solution_impect .solution_impect_left ul li {
+        width: 80%;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    #solution_impect .solution_impect_right .solution_impect_right_item img {
+        width: 65% !important;
+        margin: 0 auto;
+    }
 
 }
 

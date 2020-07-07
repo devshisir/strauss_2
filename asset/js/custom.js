@@ -53,6 +53,27 @@ $(document).ready(function() {
         }
     })
 
+
+    $('.solution_impect_right').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:false,
+        smartSpeed: 900,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+
+
+
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100){  
             $('#header_top').addClass("animated slideInDown fix");
@@ -77,7 +98,21 @@ $(document).ready(function() {
 
 
 
-
+    // this is for page smoth scroll
+    $("html").easeScroll({
+        frameRate: 70,
+        animationTime: 2000,
+        stepSize: 120,
+        pulseAlgorithm: 1,
+        pulseScale: 8,
+        pulseNormalize: 1,
+        accelerationDelta: 20,
+        accelerationMax: 1,
+        keyboardSupport: true,
+        arrowScroll: 50,
+        touchpadSupport: true,
+        fixedBackground: false,
+      });
 
 
 
