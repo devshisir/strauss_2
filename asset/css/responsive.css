@@ -158,7 +158,11 @@
         width: 78%;
     }
 
-
+    /*-- contact page --*/
+    #contact_page_contcat .contact_page_form {
+        width: 81%;
+        margin: 0 auto;
+    }
 
 
 
