@@ -1985,6 +1985,152 @@ header#header_top.fix {
     }
 }
 
+//information_key_feater
+#information_key_feater{
+    padding: 100px 0px;
+    background: #fff;
+    .information_key_feater_top{
+        h3{
+            font-family: $nu;
+            font-size: 45px;
+            color: $titleColor;
+            font-weight: 300;
+        }
+        p{
+            font-size: 26px;
+            color:$titleColor;
+            font-weight: 300;
+            font-style: italic;
+            margin-top: 20px;
+        }
+    }
+    .information_key_feater_main{
+        margin-top: 100px;
+        .information_key_feater_item{
+            margin-bottom: 40px;
+            cursor: pointer;
+            span{
+                height: 90px;
+                width: 90px;
+                background-color: #F7F7F7;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 88px;
+                display: block;
+                margin: 0 auto;
+                transition: 0.4s;
+                svg{
+                    path{
+                        transition: 0.4s;
+                    }
+                    rect{
+                        transition: 0.4s;
+                    }
+                }
+            }
+            h3{
+                margin-top: 25px;
+                font-weight: 500;
+                font-size: 20px;
+                color: $titleColor;
+            }
+            p{
+                margin-top: 15px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #666666;
+                
+            }
+            &:hover{
+                span{
+                    background: $mainColor;
+                    svg path{
+                        fill: #fff;
+                    }
+                    rect{
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//information_quote_2
+#information_quote_2{
+    padding: 150px 0px;
+    background-image: linear-gradient(to right, #4d36bd, #553fcd, #5d49dd, #6452ee, #6c5cff);
+    .information_quote_2_content{
+        h3{
+            width: 80%;
+            margin: 0 auto;
+            font-family: $nu;
+            font-size: 40px;
+            font-weight: 300;
+            color: #fff;
+        }
+        p{
+            margin-top: 40px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            line-height: 25px;
+        }
+    }
+}
+
+#information_module{
+    padding: 150px 0px;
+    background: #fff;
+    .information_module_top{
+        h3{
+            font-family: $nu;
+            font-size: 40px;
+            font-weight: 300;
+            color: $titleColor
+        }
+        p{
+            font-size: 23px;
+            font-weight: 300;
+            font-style: italic;
+            color: $titleColor;
+            margin-top: 15px;
+        }
+    }
+    .information_module_main{
+        margin-top: 100px;
+        .information_module_item{
+            margin-bottom: 60px;
+            height: 65px;
+            h4{
+                img{
+                    margin-right: 27px;
+                    display: block;
+                    float: left;
+                    margin-bottom: 15px;
+                    position: relative;
+                    top: -5px;
+                }
+                font-size: 18px;
+                font-weight: 500;
+                color: $titleColor;
+                font-family: $ro;
+                line-height: 31px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
