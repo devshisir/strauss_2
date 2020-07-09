@@ -3,7 +3,13 @@ $(document).ready(function() {
     var page = $('html, body');
     
     
-    
+    $('#download_resource,#download_resource2').on('click',function(){
+         $('#download_resource_popup').addClass('show');
+          return false;
+      })
+      $('#popup_close').on('click',function(){
+         $('#download_resource_popup').removeClass('show');
+      })
 
 
     
@@ -73,6 +79,33 @@ $(document).ready(function() {
             }
         }
     })
+
+
+    $('.information_trusted_slider').owlCarousel({
+        // stagePadding: 15,
+        loop:true,
+        margin:0,
+        nav:false,
+        smartSpeed: 2000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            },
+        }
+    })
+
+
+
+
+
+
+
 
 
 
