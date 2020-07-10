@@ -216,8 +216,12 @@
     #hosting_choice .hosting_choice_main .hosting_choice_main_item p {
         width: 43%;
     }
-
-
+    .case_study_page_main_item_right {
+        padding-left: 31px;
+    }
+    .case_study_page_main_top_title_right{
+        padding-left: 31px;
+    }
 
 
 
