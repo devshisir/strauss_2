@@ -1473,12 +1473,24 @@ header#header_top.fix {
                     border-radius: 0px;
                     font-size: 14px;
                     font-family: $ro;
-                    color: #999999;
+                    color: $titleColor;
                     &:focus{
                         outline: none;
                         box-shadow: none;
                         border-color: #D4D4D4;
                     }
+                }
+                input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                  color: #6C757D;
+                  opacity: 1; /* Firefox */
+                }
+
+                input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                  color: #6C757D;
+                }
+
+                input::-ms-input-placeholder { /* Microsoft Edge */
+                  color: #6C757D;
                 }
                 #basic-addon1 {
                     width: 57px;
@@ -1891,6 +1903,8 @@ header#header_top.fix {
             color: $titleColor;
             font-weight: 300;
             line-height: 54px;
+            width: 90%;
+            margin: 0 auto;
         }
         p{
             margin-top: 15px;
@@ -2337,6 +2351,17 @@ header#header_top.fix {
                 a{
                     img{
                         width: 70%;
+                        filter: grayscale(100);
+                        transition: 0.4s;
+                        opacity: 0.5;
+                    }
+                }
+                &:hover{
+                    a{
+                        img{
+                            filter: grayscale(0);
+                            opacity: 1;
+                        }
                     }
                 }
             }

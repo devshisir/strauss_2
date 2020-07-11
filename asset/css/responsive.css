@@ -222,9 +222,13 @@
     .case_study_page_main_top_title_right{
         padding-left: 31px;
     }
+    #information_counter .information_counter_top h3 {
+        width: 68%;
+    }
 
-
-
+    #about_story .about_story_content p {
+        font-size: 18px;
+    }
 
 
 
