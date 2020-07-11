@@ -938,6 +938,28 @@ header#header_top.fix {
     }
 }
 
+#sub_banar_3{
+    padding: 190px 0px;
+    background: url('../img/service_details.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .sub_banar_content{
+        h3{
+            font-size: 35px;
+            color: #fff;
+            font-weight: 400;
+            margin-bottom: 20px;
+            img{
+                margin-right: 15px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+
+
 //about_story
 #about_story{
     padding: 120px 0px 0px 0px;
@@ -2774,7 +2796,72 @@ header#header_top.fix {
     visibility: visible;
 }
 
-
+//service_details
+#service_details{
+    padding: 150px 0px;
+    background: #fff;
+    .service_details_top{
+        .service_details_top_content{
+            h3{
+                font-weight: 500;
+                font-size: 35px;
+                color: $titleColor;
+                line-height: 47px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 14px;
+                color: #666666;
+                line-height: 25px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .service_details_content1{
+        margin-top: 15px;
+         p{
+            font-size: 14px;
+            color: #666666;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+    }
+    .service_details_content2{
+         margin-top: 30px;
+         .service_details_content2_item{
+            h3{
+                font-size: 20px;
+                color: $titleColor;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+           p{
+                font-size: 14px;
+                color: #666666;
+                line-height: 23px;
+                margin-bottom: 15px;
+            }
+         }
+    }
+    .service_details_content3{
+        margin-top: 60px;
+        .service_details_content3_item{
+            margin-bottom: 50px;
+            h3{
+                font-size: 20px;
+                color: $titleColor;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+                color: #666666;
+                line-height: 23px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
 
 
 
