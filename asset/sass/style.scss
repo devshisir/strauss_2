@@ -2863,28 +2863,51 @@ header#header_top.fix {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.fake{
-    height: 700px;
-    background: #ddd;
+#information_counter.information_counter_2{
+    .information_counter_top{
+        h3{
+            width: 88%;
+        }
+    }
+    .information_counter_main{
+        .information_counter_main_item{
+            h4{
+                margin-top: 35px;
+                font-size: 20px;
+                font-weight: 500;
+                color: $titleColor;
+            }
+        }
+    }
 }
+
+#information_quote_2.information_quote_21{
+    .information_quote_2_content{
+        h3 {
+            width: 57%;
+            margin: 0 auto;
+            font-family: "Nunito Sans",sans-serif;
+            font-size: 40px;
+            font-weight: 300;
+            color: #fff;
+            line-height: 64px;
+        }
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
