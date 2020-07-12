@@ -2928,11 +2928,10 @@ header#header_top.fix {
         height: 100%;
         width: 83%;
         top: 0;
-        right:-100%;
+        right:0;
         background: #fff;
         padding: 24px 30px;
         transition: 0.5s;
-        transition-delay: 0.4s;
         .logo_top{
             position: relative;
             a{
@@ -3010,9 +3009,6 @@ header#header_top.fix {
 #mobile_menu_content.show{
     opacity: 1;
     visibility: visible;
-    .mobile_menu_content_container{
-        right: 0%;
-    }
 }
 
 
