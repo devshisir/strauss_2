@@ -149,9 +149,15 @@ $(document).ready(function() {
         fixedBackground: false,
       });
 
+    //menu_toggle
+    $('.menu_toggle span').on('click',function(){
+        $('#mobile_menu_content').addClass('show');
+    })
+    $('#mobile_menu_close').on('click',function(){
+        $('#mobile_menu_content').removeClass('show');
+    })
 
-
-
+    
 
 
 });
