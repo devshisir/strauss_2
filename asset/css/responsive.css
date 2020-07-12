@@ -278,6 +278,9 @@
 
 
 @media (max-width: 767px) {
+body{
+    overflow-x: hidden !important;
+}
 .mpl0{
     padding-left: 0px !important;
 }
@@ -372,10 +375,6 @@
 }
 #blog .blog_main_slider .owl-dots .owl-dot:nth-child(9){
     display: none;
-}
-#blog .blog_main_slider .blog_item {
-    width: 305px;
-    left: -12px;
 }
 #cleint_area{
     padding: 50px 0px;
@@ -494,9 +493,12 @@
     left: 0;
     transform: inherit;
 }
-
-
-
+#testmonial{
+    overflow-x: hidden !important;
+}
+#mobile_tab{
+     overflow-x: hidden !important;
+}
 
 
 
