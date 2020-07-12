@@ -587,6 +587,44 @@ body{
 #blog_page_blog .blog_item {
     width: 100%;
 }
+#blog_details {
+    padding: 50px 0px;
+}
+#blog_details .blog_details_content .blog_details_title h3 {
+    font-size: 20px;
+    margin-top: 9px;
+}
+#blog_details .blog_details_content .blog_details_item_container {
+    margin-top: 22px;
+}
+#blog_details .blog_details_content .blog_details_item_container .blog_details_item h3 {
+    font-size: 15px;
+    line-height: 22px;
+}
+#blog_details .blog_details_content .blog_details_item_container .blog_details_share ul li {
+    margin-right: 8px;
+}
+#footer {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
