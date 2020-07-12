@@ -116,7 +116,16 @@ $(document).ready(function() {
         else{
             $('#header_top').removeClass("animated slideInDown fix");
           }
-        });
+    });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50){  
+            $('#mobile_heder').addClass("animated slideInDown fix");
+        }
+        else{
+            $('#mobile_heder').removeClass("animated slideInDown fix");
+          }
+    });
 
 
 

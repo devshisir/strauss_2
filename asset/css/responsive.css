@@ -499,6 +499,51 @@ body{
 #mobile_tab{
      overflow-x: hidden !important;
 }
+#download_resource_popup .download_resource_popup_container .download_resource_popup_container_top h4 {
+    font-size: 17px;
+}
+#download_resource_popup .download_resource_popup_container .download_resource_popup_container_top h4 img {
+    margin-right: 10px;
+    height: 27px;
+}
+#download_resource_popup .download_resource_popup_container .download_resource_popup_container_top #popup_close {
+    top: 10px;
+    right: 10px;
+}
+#download_resource_popup .download_resource_popup_container .download_resource_popup_container_form {
+    padding: 28px 17px;
+}
+#download_resource_popup .download_resource_popup_container {
+    height: 100%;
+}
+#mobile_heder.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999999999999;
+    box-shadow: 0px 0px 13px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
