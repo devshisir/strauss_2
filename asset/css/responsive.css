@@ -524,19 +524,55 @@ body{
     z-index: 99999999999999;
     box-shadow: 0px 0px 13px rgba(0,0,0,0.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+#sub_banar {
+    padding: 70px 0px;
+}
+#sub_banar .sub_banar_content h3 {
+    color: #fff;
+}
+#sub_banar .sub_banar_content p {
+    color: #fff;
+}
+#about_story {
+    padding: 50px 0px;
+}
+#about_story .about_story_content h3 {
+    font-size: 28px;
+    color: #221F1F;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+#about_story .about_story_content p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+#about_value {
+    padding: 0px 0px 50px 0px;
+}
+#about_value .about_value_main .about_value_main_container {
+    flex-direction: column;
+}
+#about_value .about_value_title h3 {
+    font-weight: 500;
+    font-size: 31px;
+    margin-bottom: 7px;
+}
+#about_connect {
+    padding: 50px 0px;
+}
+#about_connect .about_connect_top h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+#about_connect .about_connect_top p {
+    font-size: 14px;
+}
+#about_connect .about_connect_main .about_connect_item {
+    padding: 30px 0px;
+    width: 100%;
+    margin-bottom: 30px;
+}
 
 
 
