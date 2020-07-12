@@ -477,10 +477,23 @@
 #footeer_top {
     padding-bottom: 21px;
 }
-
-
-
-
+#blog .blog_main_slider .owl-stage-outer {
+    overflow: hidden !important;
+}
+#testmonial .testmonial_slider_main .testmonial_slider_active .owl-stage-outer {
+    overflow: hidden !important;
+}
+#expertise .expertise_left img {
+    width: 100%;
+}
+#download_resource_popup .download_resource_popup_container {
+    width: 100% !important;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: inherit;
+}
 
 
 
