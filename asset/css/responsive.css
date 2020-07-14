@@ -1014,7 +1014,9 @@ body{
     margin: 0 auto;
     margin-bottom: 28px;
 }
-
+#sub_banar_2.bg_fix_healthcare {
+	background-position: 17% 20%;
+}
 
 
 
