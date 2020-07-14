@@ -20,7 +20,7 @@
 
 <body>
    <!-- start header top -->
-   <header id="header_top">
+   <header id="header_top" class="hide_mobile">
       <div class="container">
          <div class="row align-items-center">
             <div class="col-lg-4">
@@ -46,6 +46,52 @@
       </div>
    </header>
    <!-- end header top -->
+
+
+   <!-- start mobile header -->
+   <section id="mobile_heder" class="show_mobile">
+      <div class="container">
+         <div class="row">
+            <div class="col-7">
+               <div class="logo">
+                  <a href="index.html">
+                     <img class="img-fluid" src="asset/img/Logo.png" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="col-5">
+               <div class="menu_toggle text-right">
+                  <span><i class="fas fa-bars"></i></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end mobile header -->
+
+   <!-- start mobile menu content -->
+   <div id="mobile_menu_content" class="show_mobile">
+      <div class="mobile_menu_content_container">
+         <div class="logo_top">
+            <a href="index.html">
+               <img class="img-fluid" src="asset/img/Logo.png" alt="">
+            </a>
+            <i class="fal fa-times" id="mobile_menu_close"></i>
+         </div>
+         <div class="menu_area">
+            <ul>
+               <li class="active"><a href="#">HOME</a></li>
+               <li><a href="#">HOSPITALS</a></li>
+               <li><a href="#">ICT4D</a></li>
+               <li><a href="#">BLOG</a></li>
+            </ul>
+         </div>
+         <div class="mobile_meu_bottom">
+            <a href="#">CONTACT US</a>
+         </div>
+      </div>
+   </div>
+   <!-- end mobile menu content -->
 
    <!-- start sub banar -->
    <section id="sub_banar_2" style="background-image: url(asset/img/mobile-development/web.jpg);">
@@ -276,7 +322,7 @@
    <!-- end project solutio -->
 
    <!-- start tab area -->
-<section id="tab_area">
+<section id="tab_area" class="hide_mobile">
       <div class="container">
          <div class="row">
             <div class="col-lg-4">
@@ -459,6 +505,161 @@
       </div>
    </section>
    <!-- end tab area -->
+
+      <!-- start mobile tab area -->
+   <section id="mobile_tab" class="show_mobile">
+      <div class="container mpl0 mpr0">
+         <div class="mobile_tab_top text-center">
+            <h3>Resources</h3>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <div class="mobile_tab_main">
+                  <div class="accordion" id="accordionExample">
+                     <div class="card">
+                       <div class="card-header" id="headingOne">
+                         <h2 class="mb-0">
+                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              <p>Mobile Application</p>
+                              <h5>Lorem ipsum dolor sit amet</h5>
+                           </button>
+                         </h2>
+                       </div>
+                   
+                       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                         <div class="card-body">
+                           <div class="title">
+                              <h3>Lorem ipsum dolor sit amet</h3>
+                              <a id="download_resource" href="#"><img src="asset/img/icons/download.png" alt=""> DOWNLOAD</a>
+                           </div>
+                           <div class="content">
+                              <img class="img-fluid" src="asset/img/mobile/home/1.jpg" alt="">
+                              <p>MedLyte is revolutionizing the way doctors connect with their patients to provide a world class follow-up care experience. Doctors and hospitals use MedLyte’s powerful telemedicine toolkit to periodically engage and educate their patients and provide consultations anytime, anywhere and on any device. MedLyte provides an intelligent dashboard to the doctors to track all their patients and also a virtual consultation platform should a need arise to consult their patients on the go. </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="card-header" id="headingOne">
+                         <h2 class="mb-0">
+                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseOne">
+                              <p>Mobile Application</p>
+                              <h5>6 e-books or market reports</h5>
+                           </button>
+                         </h2>
+                       </div>
+                   
+                       <div id="collapse2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                         <div class="card-body">
+                           <div class="title">
+                              <h3>6 e-books or market reports</h3>
+                              <a id="download_resource" href="#"><img src="asset/img/icons/download.png" alt=""> DOWNLOAD</a>
+                           </div>
+                           <div class="content">
+                              <img class="img-fluid" src="asset/img/mobile/home/1.jpg" alt="">
+                              <p>MedLyte is revolutionizing the way doctors connect with their patients to provide a world class follow-up care experience. Doctors and hospitals use MedLyte’s powerful telemedicine toolkit to periodically engage and educate their patients and provide consultations anytime, anywhere and on any device. MedLyte provides an intelligent dashboard to the doctors to track all their patients and also a virtual consultation platform should a need arise to consult their patients on the go. </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="card-header" id="headingOne">
+                         <h2 class="mb-0">
+                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseOne">
+                              <p>Mobile Application</p>
+                              <h5>Donec quam felis ultricies nec</h5>
+                           </button>
+                         </h2>
+                       </div>
+                   
+                       <div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                         <div class="card-body">
+                           <div class="title">
+                              <h3>Donec quam felis ultricies nec</h3>
+                              <a id="download_resource" href="#"><img src="asset/img/icons/download.png" alt=""> DOWNLOAD</a>
+                           </div>
+                           <div class="content">
+                              <img class="img-fluid" src="asset/img/mobile/home/1.jpg" alt="">
+                              <p>MedLyte is revolutionizing the way doctors connect with their patients to provide a world class follow-up care experience. Doctors and hospitals use MedLyte’s powerful telemedicine toolkit to periodically engage and educate their patients and provide consultations anytime, anywhere and on any device. MedLyte provides an intelligent dashboard to the doctors to track all their patients and also a virtual consultation platform should a need arise to consult their patients on the go. </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="card-header" id="headingOne">
+                         <h2 class="mb-0">
+                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseOne">
+                              <p>Mobile Application</p>
+                              <h5>Aliquam lorem ante, dapibus in</h5>
+                           </button>
+                         </h2>
+                       </div>
+                   
+                       <div id="collapse4" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                         <div class="card-body">
+                           <div class="title">
+                              <h3>Aliquam lorem ante, dapibus in</h3>
+                              <a id="download_resource" href="#"><img src="asset/img/icons/download.png" alt=""> DOWNLOAD</a>
+                           </div>
+                           <div class="content">
+                              <img class="img-fluid" src="asset/img/mobile/home/1.jpg" alt="">
+                              <p>MedLyte is revolutionizing the way doctors connect with their patients to provide a world class follow-up care experience. Doctors and hospitals use MedLyte’s powerful telemedicine toolkit to periodically engage and educate their patients and provide consultations anytime, anywhere and on any device. MedLyte provides an intelligent dashboard to the doctors to track all their patients and also a virtual consultation platform should a need arise to consult their patients on the go. </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="card-header" id="headingOne">
+                         <h2 class="mb-0">
+                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapseOne">
+                              <p>Mobile Application</p>
+                              <h5>Lorem ipsum sitcon sectetuer</h5>
+                           </button>
+                         </h2>
+                       </div>
+                   
+                       <div id="collapse5" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                         <div class="card-body">
+                           <div class="title">
+                              <h3>Lorem ipsum sitcon sectetuer</h3>
+                              <a id="download_resource" href="#"><img src="asset/img/icons/download.png" alt=""> DOWNLOAD</a>
+                           </div>
+                           <div class="content">
+                              <img class="img-fluid" src="asset/img/mobile/home/1.jpg" alt="">
+                              <p>MedLyte is revolutionizing the way doctors connect with their patients to provide a world class follow-up care experience. Doctors and hospitals use MedLyte’s powerful telemedicine toolkit to periodically engage and educate their patients and provide consultations anytime, anywhere and on any device. MedLyte provides an intelligent dashboard to the doctors to track all their patients and also a virtual consultation platform should a need arise to consult their patients on the go. </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="card-header" id="headingOne">
+                         <h2 class="mb-0">
+                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapseOne">
+                              <p>Mobile Application</p>
+                              <h5>Aenean imperdiet dolor que amet</h5>
+                           </button>
+                         </h2>
+                       </div>
+                   
+                       <div id="collapse6" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                         <div class="card-body">
+                           <div class="title">
+                              <h3>Aenean imperdiet dolor que amet</h3>
+                              <a id="download_resource" href="#"><img src="asset/img/icons/download.png" alt=""> DOWNLOAD</a>
+                           </div>
+                           <div class="content">
+                              <img class="img-fluid" src="asset/img/mobile/home/1.jpg" alt="">
+                              <p>MedLyte is revolutionizing the way doctors connect with their patients to provide a world class follow-up care experience. Doctors and hospitals use MedLyte’s powerful telemedicine toolkit to periodically engage and educate their patients and provide consultations anytime, anywhere and on any device. MedLyte provides an intelligent dashboard to the doctors to track all their patients and also a virtual consultation platform should a need arise to consult their patients on the go. </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end mobile tab area -->
    
    <!-- start bottom section -->
    <section id="dev_bottom" style="background: #fff">
@@ -585,7 +786,7 @@
    <!-- end quote area -->
 
    <!-- start footer top -->
-   <section id="footeer_top">
+<section id="footeer_top">
       <div class="container">
          <div class="row">
             <div class="col-lg-4">
@@ -605,7 +806,7 @@
             </div>
             <div class="col-lg-8">
                <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-6">
                      <div class="footer_top_link">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1"><a href="#">Home</a></li>
@@ -615,7 +816,7 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-6">
                      <div class="footer_top_link">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1"><a href="#">Hospitals</a></li>
@@ -625,8 +826,8 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-lg-3">
-                     <div class="footer_top_link">
+                  <div class="col-lg-3 col-12">
+                     <div class="footer_top_link footer_top_link_last">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1"><a href="#">Connected EHR</a></li>
                            <li class="wow fadeInUp" data-wow-duration="0.1" data-wow-delay="0.2s"><a href="#">Telemedicine</a></li>
@@ -636,7 +837,7 @@
                      </div>
                   </div>
                   <div class="col-lg-3">
-                     <div class="footer_top_link">
+                     <div class="footer_top_link footer_top_link_flag">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1" data-wow-delay="0.2s"><a href="#"><img src="asset/img/flag/1.png" alt=""> +1-8544005675</a></li>
                            <li class="wow fadeInUp" data-wow-duration="0.1" data-wow-delay="0.2s"><a href="#"><img src="asset/img/flag/2.png" alt=""> +44-8433780265</a></li>

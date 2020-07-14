@@ -20,7 +20,7 @@
 
 <body>
    <!-- start header top -->
-   <header id="header_top">
+   <header id="header_top" class="hide_mobile">
       <div class="container">
          <div class="row align-items-center">
             <div class="col-lg-4">
@@ -46,6 +46,62 @@
       </div>
    </header>
    <!-- end header top -->
+
+      <!-- start mobile header -->
+   <section id="mobile_heder" class="show_mobile">
+      <div class="container">
+         <div class="row">
+            <div class="col-7">
+               <div class="logo">
+                  <a href="index.html">
+                     <img class="img-fluid" src="asset/img/Logo.png" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="col-5">
+               <div class="menu_toggle text-right">
+                  <span><i class="fas fa-bars"></i></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end mobile header -->
+
+   <!-- start mobile menu content -->
+   <div id="mobile_menu_content" class="show_mobile">
+      <div class="mobile_menu_content_container">
+         <div class="logo_top">
+            <a href="index.html">
+               <img class="img-fluid" src="asset/img/Logo.png" alt="">
+            </a>
+            <i class="fal fa-times" id="mobile_menu_close"></i>
+         </div>
+         <div class="menu_area">
+            <ul>
+               <li class="active"><a href="#">HOME</a></li>
+               <li><a href="#">HOSPITALS</a></li>
+               <li><a href="#">ICT4D</a></li>
+               <li><a href="#">BLOG</a></li>
+            </ul>
+         </div>
+         <div class="mobile_meu_bottom">
+            <a href="#">CONTACT US</a>
+         </div>
+      </div>
+   </div>
+   <!-- end mobile menu content -->
+
+
+
+
+
+
+
+
+
+
+
 
    <!-- start sub banar -->
    <section id="sub_banar_2" class="contact_banar" style="background-image: url(asset/img/contact_bg.jpg);">
@@ -78,7 +134,7 @@
                   </ul>
                </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mpl0 mpr0">
                <div class="contact_page_form">
                   <div class="contact_page_form_top">
                      <h3 class="wow fadeInUp" data-wow-duration="1s">Let’s Explore Possibilities</h3>
@@ -180,7 +236,7 @@
             </div>
             <div class="col-lg-8">
                <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-6">
                      <div class="footer_top_link">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1"><a href="#">Home</a></li>
@@ -190,7 +246,7 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-6">
                      <div class="footer_top_link">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1"><a href="#">Hospitals</a></li>
@@ -200,8 +256,8 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-lg-3">
-                     <div class="footer_top_link">
+                  <div class="col-lg-3 col-12">
+                     <div class="footer_top_link footer_top_link_last">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1"><a href="#">Connected EHR</a></li>
                            <li class="wow fadeInUp" data-wow-duration="0.1" data-wow-delay="0.2s"><a href="#">Telemedicine</a></li>
@@ -211,7 +267,7 @@
                      </div>
                   </div>
                   <div class="col-lg-3">
-                     <div class="footer_top_link">
+                     <div class="footer_top_link footer_top_link_flag">
                         <ul>
                            <li class="wow fadeInUp" data-wow-duration="0.1" data-wow-delay="0.2s"><a href="#"><img src="asset/img/flag/1.png" alt=""> +1-8544005675</a></li>
                            <li class="wow fadeInUp" data-wow-duration="0.1" data-wow-delay="0.2s"><a href="#"><img src="asset/img/flag/2.png" alt=""> +44-8433780265</a></li>
