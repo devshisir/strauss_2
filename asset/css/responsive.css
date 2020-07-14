@@ -1026,7 +1026,9 @@ body{
 	right: 12%;
 	top: 55%;
 }
-
+#contact_newslater .contact_newslater_main h4 input {
+	border-radius: 0px !important;
+}
 
 
 
