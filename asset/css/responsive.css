@@ -1017,8 +1017,15 @@ body{
 #sub_banar_2.bg_fix_healthcare {
 	background-position: 17% 20%;
 }
-
-
+#contact_newslater .contact_newslater_main h4 input {
+	width: 84%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#contact_newslater .contact_newslater_main h4 button {
+	right: 12%;
+	top: 55%;
+}
 
 
 
